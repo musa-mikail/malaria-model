@@ -19,12 +19,6 @@ Calculates parasitemia (%P) to aid diagnosis.
 Source: U.S. National Library of Medicine
 27,558 labeled PNG images (balanced: 13,780 parasitized, 13,780 uninfected)
 75% for training, 25% for validation/testing
-🛠️ Solution Approach
-Preprocessing: Image scaling, rotation, augmentation
-Model: CNN (VGGNet architecture), benchmarked against a vanilla ANN
-Training: Amazon SageMaker
-Deployment: PyQt-based GUI with OpenCV for edge detection
-Output: % of infected cells (parasitemia)
 Malaria Dataset: https://ceb.nlm.nih.gov/repositories/malaria-datasets/
 
 VGGNet — Simonyan et al: https://arxiv.org/pdf/1409.1556.pdf?source=post_page---------------------------
